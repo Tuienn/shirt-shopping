@@ -1,0 +1,95 @@
+{
+  "bill": [],
+  "products": [
+    {
+      "id": "1",
+      "name": "Men's Basketball T-shirt",
+      "price": 1000,
+      "list_price": 1200,
+      "sale_price": 1000,
+      "quantity": 127,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/97296d11-eca8-4884-99aa-ecca2a9d6da5/AS+M+NK+TEE+OS+OC.png"
+    },
+    {
+      "id": "2",
+      "name": "Men's Casual T-shirt",
+      "price": 1200,
+      "list_price": 1500,
+      "sale_price": 1200,
+      "quantity": 86,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9f876c4f-3364-4517-8a0e-69206aa58043/AS+M+NSW+TEE+OS+PREM+ESSNTL+FA.png"
+    },
+    {
+      "id": "3",
+      "name": "Men's Graphic T-shirt",
+      "price": 1500,
+      "list_price": 1500,
+      "sale_price": null,
+      "quantity": 70,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b95873bd-ba1a-42de-9186-7eb514978b9c/AS+M+NSW+TEE+ICON+FUTURA.png"
+    },
+    {
+      "id": "4",
+      "name": "Men's Running T-shirt",
+      "price": 1800,
+      "list_price": 2200,
+      "sale_price": 1800,
+      "quantity": 90,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/017c60d5-edec-4d0c-92fc-dbd2ef79b6f1/AS+U+NK+SABRINA+SIGNATURE+HDY.png"
+    },
+    {
+      "id": "5",
+      "name": "Men's Performance T-shirt",
+      "price": 2000,
+      "list_price": 2000,
+      "sale_price": null,
+      "quantity": 60,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/af70dde0-faf9-4928-88a5-c26f0067ab52/AS+M+NK+DF+PRIMARY+SWOOSH+TOP.png"
+    },
+    {
+      "id": "6",
+      "name": "Men's Basic T-shirt",
+      "price": 900,
+      "list_price": 1200,
+      "sale_price": 900,
+      "quantity": 120,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/220cab62-cdb1-4014-852e-454f044eacbc/AS+M+NK+DF+UV+PRIMARY+FZ+HOODI.png"
+    },
+    {
+      "id": "7",
+      "name": "Men's Heritage T-shirt",
+      "price": 1100,
+      "list_price": 1100,
+      "sale_price": null,
+      "quantity": 110,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/23c7b09d-3379-4d88-b1e4-fe4314422037/AS+M+NK+DF+HERITAGE+PERF+TOP+S.png"
+    },
+    {
+      "id": "8",
+      "name": "Men's Cosmic T-shirt",
+      "price": 950,
+      "list_price": 1100,
+      "sale_price": 950,
+      "quantity": 95,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/47a84279-c56e-4145-8910-d5321e2d8900/AS+U+NSW+TEE+OC+COSMIC+YTH.png"
+    },
+    {
+      "id": "9",
+      "name": "Men's Air T-shirt",
+      "price": 1300,
+      "list_price": 1500,
+      "sale_price": 1300,
+      "quantity": 85,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/75d0137d-d366-482d-9826-2224365d8531/AS+M+NSW+TEE+M90+NK+AIR+SP25+1.png"
+    },
+    {
+      "id": "10",
+      "name": "Men's Oversized T-shirt",
+      "price": 1700,
+      "list_price": 1700,
+      "sale_price": null,
+      "quantity": 75,
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/920ea6c5-77bd-454e-8394-d9e67926223d/AS+M+NK+CLUB+FT+OVERSIZED+CREW.png"
+    }
+  ]
+}

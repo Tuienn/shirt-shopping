@@ -1,0 +1,39 @@
+.overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4); /* Màu đen với độ trong suốt 50% */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /* pointer-events: none; */
+}
+.overlay.active {
+    display: block;
+}
+
+#main {
+    padding-top: 90px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.loading {
+    position: absolute;
+    left: calc(50% - 17.5px);
+    top: calc(50% - 17.5px);
+
+    width: 70px;
+    height: 70px;
+    border: 10px solid rgb(231, 228, 228);
+    border-top: 10px solid gray;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

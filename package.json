@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "express": "^4.20.0",
+        "json-server": "^1.0.0-beta.2",
+        "yarn": "^1.22.22"
+    },
+    "scripts": {
+        "start": "npx json-server --watch api.json",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}

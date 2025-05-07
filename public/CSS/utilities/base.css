@@ -1,0 +1,29 @@
+* {
+    box-sizing: inherit;
+    /* Phần tử con kế thừa kích thước của cha */
+}
+
+html {
+    font-size: 80%;
+    /* Mặc định là 16px */
+    line-height: 1.25rem;
+    /*rem phụ thuộc vào thẻ html*/
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    /*Nếu thay đổi padding, border thì phần tử giữ nguyên kích thước tổng thể ban đầu*/
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}

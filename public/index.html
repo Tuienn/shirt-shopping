@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Store NIKE</title>
+        <link rel="icon" href="./nikeLogo.png" type="image/x-icon" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./CSS/utilities/base.css" />
+        <link rel="stylesheet" href="./CSS/utilities/grid.css" />
+        <link rel="stylesheet" href="./CSS/main/index.css" />
+        <link rel="stylesheet" href="./CSS/main/navbar.css" />
+        <link rel="stylesheet" href="./CSS/main/product.css" />
+        <link rel="stylesheet" href="./CSS/main/shoppingCart.css" />
+        <link rel="stylesheet" href="./CSS/main/clientInfo.css" />
+        <link rel="stylesheet" href="./CSS/main/bill.css" />
+        <link rel="stylesheet" href="./CSS/reponsive.css" />
+    </head>
+    <body>
+        <div id="app">
+            <nav id="navbar">
+                <div class="navbar__content">
+                    <div class="navbar__icon">
+                        <i
+                            class="fa-brands fa-html5"
+                            style="margin-right: 15px"
+                        ></i>
+                        <h2>Nike</h2>
+                    </div>
+                    <ul class="navbar__group-btn">
+                        <li class="nav-btn nav-btn--home">
+                            <h2>HOME</h2>
+                        </li>
+                        <li class="nav-btn nav-btn--bill">
+                            <h2>BILLS</h2>
+                        </li>
+                        <li class="nav-btn nav-btn--cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </li>
+                    </ul>
+                    <div class="navbar__bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+            <section id="main" class="grid wide"></section>
+
+            <div class="overlay"></div>
+        </div>
+    </body>
+    <script type="module" src="./JS/index.js"></script>
+</html>

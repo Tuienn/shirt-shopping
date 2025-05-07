@@ -1,0 +1,112 @@
+/* Mobile */
+@media (max-width: 480px) {
+    #main form {
+        width: 300px;
+    }
+    #main
+        form
+        .form__main-content
+        .form-field.form-field--name
+        .form-field__group-input {
+        flex-direction: column;
+    }
+    #main
+        form
+        .form__main-content
+        .form-field.form-field--name
+        .form-field__group-input
+        input {
+        width: 100%;
+    }
+    #main
+        form
+        .form__main-content
+        .form-field.form-field--name
+        .form-field__group-input
+        input:first-child {
+        margin-right: 0px;
+    }
+    #main
+        form
+        .form__main-content
+        .form-field.form-field--name
+        .form-field__group-input
+        input:last-child {
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    #main
+        form
+        .form__main-content
+        .form-field.form-field--address
+        .form-field__group-input
+        div {
+        flex-direction: column;
+    }
+    #main
+        form
+        .form__main-content
+        .form-field.form-field--address
+        .form-field__group-input
+        div
+        select.form-input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .table-bill tbody tr td:first-child select.details {
+        font-size: 9px;
+        width: 45px;
+    }
+}
+@media (max-width: 739px) {
+    table th,
+    table td {
+        font-size: 13px !important;
+    }
+
+    table td.tbl__quantity i {
+        margin: 0 !important;
+    }
+    #main {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #navbar .navbar__content {
+        width: 95%;
+    }
+    #navbar .navbar__content .navbar__group-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        z-index: 100;
+        transform: translateX(110%);
+        transition: transform ease-in 0.15s;
+        width: 50%;
+        height: 100vh;
+        background-color: white;
+        box-shadow: -4px 0px 15px -2px rgba(0, 0, 0, 0.3);
+        flex-direction: column;
+        justify-content: start;
+    }
+    #navbar .navbar__content .navbar__group-btn.active-mobile {
+        transform: translateX(0);
+    }
+    #navbar .navbar__content .navbar__bars {
+        display: block;
+    }
+}
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .navbar__content {
+        width: 644px;
+        height: auto;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .navbar__content {
+        width: 984px;
+        height: auto;
+    }
+} /*# sourceMappingURL=responsive.css.map */
