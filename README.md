@@ -1,14 +1,34 @@
 # Tài liệu dự án
 
-## A. Cách chạy dự án
+## A. Cài đặt dự án
+
+1. Clone repository:
+
+```
+git clone https://github.com/Tuienn/shirt-shopping.git
+```
+
+2. Di chuyển vào thư mục dự án:
+
+```
+cd shirt-shopping
+```
+
+3. Cài đặt các dependencies:
+
+```
+npm install
+```
+
+## B. Cách chạy dự án
 
 Sử dụng "npm start" để khởi động:
 
--   File index.html (http://localhost:3000/)
+-   File index.html (http://localhost:3000/) - Giao diện chính là mở theo link này
 -   JSON server (http://localhost:3000/bill)
 -   JSON server (http://localhost:3000/products)
 
-## B. Cấu trúc file
+## C. Cấu trúc file
 
 ### 1. File bill.json
 
@@ -50,7 +70,7 @@ Trang chính (HOME + BILL + SHOPPING CART)
 -   **File clientInfo.js**: Xử lý logic cho form Thông tin người mua (chỉ hỗ trợ xử lý event cho index.js)
 -   **File shoppingCart.js**: Xử lý logic của trang SHOPPING CART (chỉ hỗ trợ xử lý event cho index.js)
 
-## C. Chi tiết
+## D. Chi tiết
 
 ### Phần 1: File listData.js
 
